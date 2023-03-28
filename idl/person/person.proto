@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+package person;
+
+option go_package = "hertz/person";
+
+import "api.proto";
+
+message PersonReq {
+  string name = 1[(api.query)="name"];
+  int32 age = 2[(api.path)="age"];
+  string city = 3[(api.body)="city"];
+}
+
+message PersonResp{
+  string name = 1;
+  int32 age = 2;
+  string city = 3;
+}
+
+message PersonListResp{
+  string name = 1;
+}
+
+service PersonService{
+  rpc PersonInfo(PersonReq) returns(PersonResp){
+    option (api.post) = "/person_info/:age";
+  }
+
+  rpc PersonList(PersonReq) returns(PersonListResp){
+    option (api.post) = "/list";
+  }
+}

@@ -1,0 +1,52 @@
+2023/02/01 14:13:59.031716 main.go:33: [Info] start
+2023/02/01 14:13:59.031808 engine.go:617: [Debug] HERTZ: Method=POST   absolutePath=/list                     --> handlerName=hertz-demo/biz/handler/person.PersonList (num=2 handlers)
+2023/02/01 14:13:59.031855 engine.go:617: [Debug] HERTZ: Method=POST   absolutePath=/person_info/:age         --> handlerName=hertz-demo/biz/handler/person.PersonInfo (num=2 handlers)
+2023/02/01 14:13:59.031868 engine.go:617: [Debug] HERTZ: Method=GET    absolutePath=/dev/pprof/               --> handlerName=github.com/hertz-contrib/pprof/adaptor.NewHertzHTTPHandler.func1 (num=2 handlers)
+2023/02/01 14:13:59.031875 engine.go:617: [Debug] HERTZ: Method=GET    absolutePath=/dev/pprof/cmdline        --> handlerName=github.com/hertz-contrib/pprof/adaptor.NewHertzHTTPHandler.func1 (num=2 handlers)
+2023/02/01 14:13:59.031884 engine.go:617: [Debug] HERTZ: Method=GET    absolutePath=/dev/pprof/profile        --> handlerName=github.com/hertz-contrib/pprof/adaptor.NewHertzHTTPHandler.func1 (num=2 handlers)
+2023/02/01 14:13:59.031893 engine.go:617: [Debug] HERTZ: Method=POST   absolutePath=/dev/pprof/symbol         --> handlerName=github.com/hertz-contrib/pprof/adaptor.NewHertzHTTPHandler.func1 (num=2 handlers)
+2023/02/01 14:13:59.031898 engine.go:617: [Debug] HERTZ: Method=GET    absolutePath=/dev/pprof/symbol         --> handlerName=github.com/hertz-contrib/pprof/adaptor.NewHertzHTTPHandler.func1 (num=2 handlers)
+2023/02/01 14:13:59.031902 engine.go:617: [Debug] HERTZ: Method=GET    absolutePath=/dev/pprof/trace          --> handlerName=github.com/hertz-contrib/pprof/adaptor.NewHertzHTTPHandler.func1 (num=2 handlers)
+2023/02/01 14:13:59.031907 engine.go:617: [Debug] HERTZ: Method=GET    absolutePath=/dev/pprof/allocs         --> handlerName=github.com/hertz-contrib/pprof/adaptor.NewHertzHTTPHandler.func1 (num=2 handlers)
+2023/02/01 14:13:59.031912 engine.go:617: [Debug] HERTZ: Method=GET    absolutePath=/dev/pprof/block          --> handlerName=github.com/hertz-contrib/pprof/adaptor.NewHertzHTTPHandler.func1 (num=2 handlers)
+2023/02/01 14:13:59.031916 engine.go:617: [Debug] HERTZ: Method=GET    absolutePath=/dev/pprof/goroutine      --> handlerName=github.com/hertz-contrib/pprof/adaptor.NewHertzHTTPHandler.func1 (num=2 handlers)
+2023/02/01 14:13:59.031920 engine.go:617: [Debug] HERTZ: Method=GET    absolutePath=/dev/pprof/heap           --> handlerName=github.com/hertz-contrib/pprof/adaptor.NewHertzHTTPHandler.func1 (num=2 handlers)
+2023/02/01 14:13:59.031925 engine.go:617: [Debug] HERTZ: Method=GET    absolutePath=/dev/pprof/mutex          --> handlerName=github.com/hertz-contrib/pprof/adaptor.NewHertzHTTPHandler.func1 (num=2 handlers)
+2023/02/01 14:13:59.031929 engine.go:617: [Debug] HERTZ: Method=GET    absolutePath=/dev/pprof/threadcreate   --> handlerName=github.com/hertz-contrib/pprof/adaptor.NewHertzHTTPHandler.func1 (num=2 handlers)
+2023/02/01 14:13:59.031942 engine.go:617: [Debug] HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=hertz-demo/biz/handler.Ping (num=6 handlers)
+2023/02/01 14:13:59.031948 engine.go:617: [Debug] HERTZ: Method=GET    absolutePath=/user/get/:age            --> handlerName=hertz-demo/biz/handler/person.GetInfo (num=6 handlers)
+2023/02/01 14:13:59.031953 engine.go:617: [Debug] HERTZ: Method=POST   absolutePath=/user/post                --> handlerName=hertz-demo/biz/handler/person.PostInfo (num=6 handlers)
+2023/02/01 14:13:59.031958 engine.go:617: [Debug] HERTZ: Method=POST   absolutePath=/user/any/:age            --> handlerName=hertz-demo/biz/handler/person.BindInfo (num=6 handlers)
+2023/02/01 14:13:59.032128 engine.go:389: [Info] HERTZ: Using network library=netpoll
+2023/02/01 14:13:59.033354 transport.go:110: [Info] HERTZ: HTTP server listening on address=127.0.0.1:8800
+2023/02/01 14:14:20.982872 person_service.go:25: [Info] PersonInfo log
+2023/02/01 14:21:38.251913 hertz.go:113: [Info] HERTZ: Received signal: interrupt
+2023/02/01 14:21:38.252009 hertz.go:77: [Info] HERTZ: Begin graceful shutdown, wait at most num=5 seconds...
+2023/02/01 14:21:38.252229 engine.go:306: [Info] HERTZ: Execute OnShutdownHooks finish
+2023/03/27 18:16:02.980283 main.go:39: [Info] start
+2023/03/27 18:16:02.980414 engine.go:617: [Debug] HERTZ: Method=POST   absolutePath=/list                     --> handlerName=hertz-m/biz/handler/person.PersonList (num=3 handlers)
+2023/03/27 18:16:02.980435 engine.go:617: [Debug] HERTZ: Method=POST   absolutePath=/person_info/:age         --> handlerName=hertz-m/biz/handler/person.PersonInfo (num=3 handlers)
+2023/03/27 18:16:02.980445 engine.go:617: [Debug] HERTZ: Method=GET    absolutePath=/dev/pprof/               --> handlerName=github.com/hertz-contrib/pprof/adaptor.NewHertzHTTPHandler.func1 (num=3 handlers)
+2023/03/27 18:16:02.980456 engine.go:617: [Debug] HERTZ: Method=GET    absolutePath=/dev/pprof/cmdline        --> handlerName=github.com/hertz-contrib/pprof/adaptor.NewHertzHTTPHandler.func1 (num=3 handlers)
+2023/03/27 18:16:02.980464 engine.go:617: [Debug] HERTZ: Method=GET    absolutePath=/dev/pprof/profile        --> handlerName=github.com/hertz-contrib/pprof/adaptor.NewHertzHTTPHandler.func1 (num=3 handlers)
+2023/03/27 18:16:02.980469 engine.go:617: [Debug] HERTZ: Method=POST   absolutePath=/dev/pprof/symbol         --> handlerName=github.com/hertz-contrib/pprof/adaptor.NewHertzHTTPHandler.func1 (num=3 handlers)
+2023/03/27 18:16:02.980473 engine.go:617: [Debug] HERTZ: Method=GET    absolutePath=/dev/pprof/symbol         --> handlerName=github.com/hertz-contrib/pprof/adaptor.NewHertzHTTPHandler.func1 (num=3 handlers)
+2023/03/27 18:16:02.980478 engine.go:617: [Debug] HERTZ: Method=GET    absolutePath=/dev/pprof/trace          --> handlerName=github.com/hertz-contrib/pprof/adaptor.NewHertzHTTPHandler.func1 (num=3 handlers)
+2023/03/27 18:16:02.980482 engine.go:617: [Debug] HERTZ: Method=GET    absolutePath=/dev/pprof/allocs         --> handlerName=github.com/hertz-contrib/pprof/adaptor.NewHertzHTTPHandler.func1 (num=3 handlers)
+2023/03/27 18:16:02.980487 engine.go:617: [Debug] HERTZ: Method=GET    absolutePath=/dev/pprof/block          --> handlerName=github.com/hertz-contrib/pprof/adaptor.NewHertzHTTPHandler.func1 (num=3 handlers)
+2023/03/27 18:16:02.980492 engine.go:617: [Debug] HERTZ: Method=GET    absolutePath=/dev/pprof/goroutine      --> handlerName=github.com/hertz-contrib/pprof/adaptor.NewHertzHTTPHandler.func1 (num=3 handlers)
+2023/03/27 18:16:02.980496 engine.go:617: [Debug] HERTZ: Method=GET    absolutePath=/dev/pprof/heap           --> handlerName=github.com/hertz-contrib/pprof/adaptor.NewHertzHTTPHandler.func1 (num=3 handlers)
+2023/03/27 18:16:02.980501 engine.go:617: [Debug] HERTZ: Method=GET    absolutePath=/dev/pprof/mutex          --> handlerName=github.com/hertz-contrib/pprof/adaptor.NewHertzHTTPHandler.func1 (num=3 handlers)
+2023/03/27 18:16:02.980505 engine.go:617: [Debug] HERTZ: Method=GET    absolutePath=/dev/pprof/threadcreate   --> handlerName=github.com/hertz-contrib/pprof/adaptor.NewHertzHTTPHandler.func1 (num=3 handlers)
+2023/03/27 18:16:02.980518 engine.go:617: [Debug] HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=hertz-m/biz/handler.Ping (num=7 handlers)
+2023/03/27 18:16:02.980533 engine.go:617: [Debug] HERTZ: Method=GET    absolutePath=/user/get/:age            --> handlerName=hertz-m/biz/handler/person.GetInfo (num=7 handlers)
+2023/03/27 18:16:02.980538 engine.go:617: [Debug] HERTZ: Method=POST   absolutePath=/user/post                --> handlerName=hertz-m/biz/handler/person.PostInfo (num=7 handlers)
+2023/03/27 18:16:02.980545 engine.go:617: [Debug] HERTZ: Method=POST   absolutePath=/user/any/:age            --> handlerName=hertz-m/biz/handler/person.BindInfo (num=7 handlers)
+2023/03/27 18:16:02.980790 engine.go:389: [Info] HERTZ: Using network library=netpoll
+2023/03/27 18:16:03.021564 transport.go:110: [Info] HERTZ: HTTP server listening on address=127.0.0.1:8800
+2023/03/27 18:17:00.836910 logger.go:15: [Trace] status=200 cost=10632064 method=POST full_path=/user/any/234 client_ip=127.0.0.1 host=localhost:8800
+2023/03/27 18:17:03.517349 logger.go:15: [Trace] status=200 cost=10632064 method=POST full_path=/user/any/234 client_ip=127.0.0.1 host=localhost:8800
+2023/03/27 18:17:14.634037 logger.go:15: [Trace] status=200 cost=10632064 method=POST full_path=/user/post client_ip=127.0.0.1 host=localhost:8800
+2023/03/27 18:17:19.631027 hertz.go:113: [Info] HERTZ: Received signal: interrupt
+2023/03/27 18:17:19.631084 hertz.go:77: [Info] HERTZ: Begin graceful shutdown, wait at most num=5 seconds...
+2023/03/27 18:17:24.631854 engine.go:306: [Info] HERTZ: Execute OnShutdownHooks finish
